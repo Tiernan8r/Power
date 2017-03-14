@@ -1,0 +1,19 @@
+main: me.Tiernanator.Power.Main
+version: 2.0
+name: Power
+description: A Plugin that controls player levels.
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities, Factions]
+prefix: Power
+softdepend: []
+loadbefore: [Smart_Power]
+commands:
+    getPower:
+        description: See what your power level is.
+        #aliases: power
+    getfactionpower:
+        description: Get the Power of your Faction as a whole.
+        #aliases: factionPower
